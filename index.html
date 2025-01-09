@@ -734,5 +734,28 @@
     <script src="js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <!-- Start of LiveChat (www.livechatinc.com) code -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDFCT4md5Th7IGks6-ALRuMmGp3TQ3q9I8",
+          authDomain: "triangle-outsouring-corp.firebaseapp.com",
+          projectId: "triangle-outsouring-corp",
+          storageBucket: "triangle-outsouring-corp.firebasestorage.app",
+          messagingSenderId: "641929395885",
+          appId: "1:641929395885:web:3b65818f6391099e7bd024",
+          measurementId: "G-E9647PSF2N"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
